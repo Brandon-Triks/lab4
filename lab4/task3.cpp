@@ -1,6 +1,5 @@
 #include "lab04.hpp"
-#include <vector>
-#include <iostream>
+
 int argmax(const std::vector<float>& v) {
 	if (v.empty()){
 		return -1;

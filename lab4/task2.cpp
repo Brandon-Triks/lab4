@@ -1,6 +1,5 @@
 #include "lab04.hpp"
-#include <vector>
-#include <iostream>
+
 std::pair<float, float> minMax(const std::vector<float>& v) {
 	std::pair <float, float> result;
 	float max = 0, min = 10000000000;

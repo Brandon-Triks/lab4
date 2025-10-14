@@ -1,6 +1,5 @@
 #include "lab04.hpp"
-#include <vector>
-#include <iostream>
+
 bool remove_first_negative_element(std::vector<int>& v, int& removed_element) {
 	int k = 0;
 	for (int i = 0; i < v.size(); i++) {

@@ -1,6 +1,5 @@
 #include "lab04.hpp"
-#include <vector>
-#include <iostream>
+
 std::string replace(const std::string& str, const std::string& old, const std::string& new_string) {
 	std::string result = str;
 	size_t pos = 0;

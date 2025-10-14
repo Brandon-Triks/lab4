@@ -1,7 +1,5 @@
 #include "lab04.hpp"
-#include <vector>
-#include <string>
-#include <iostream>
+
 std::vector<std::string> split(const std::string& str, char sep) {
 	std::vector<std::string> result{};
 	std::string copy = str;

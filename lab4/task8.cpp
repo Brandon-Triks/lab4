@@ -1,6 +1,5 @@
-#include <vector>
-#include <string>
-#include <iostream>
+#include "lab04.hpp"
+
 std::string join(const std::vector<std::string>& v, const std::string& sep) {
 	std::string res;
 	for (int i = 0; i < v.size(); i++) {
