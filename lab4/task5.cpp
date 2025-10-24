@@ -14,7 +14,7 @@ bool remove_first_negative_element(std::vector<int>& v, int& removed_element) {
 	}
 	else { 
 		removed_element = 0;
-		return true;
+		return false;
 	}
 }
 
